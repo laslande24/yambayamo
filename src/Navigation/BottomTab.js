@@ -66,14 +66,11 @@ const HomeStackScreen = () => {
       <HomeStack.Screen name="HomeScreen" backBehavior='initialRoute' component={Home} options={{ headerShown: false }} />
       <HomeStack.Screen name="Assignment" component={Assignment} />
       <HomeStack.Screen name="ChatBot" component={ChatBotUI} options={{
-<<<<<<< HEAD
         gestureDirection: 'vertical',
         transitionSpec: {
           open: config,
           close: closeConfig,
         },
-=======
->>>>>>> 2be13d818ceae66e63a8fa5a4e2f568c5a3cc2ef
         cardStyleInterpolator: CardStyleInterpolators.forModalPresentationIOS,
       }} />
     </HomeStack.Navigator>

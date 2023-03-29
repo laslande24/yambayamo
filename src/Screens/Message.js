@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import {
-    Center, Text, Image, VStack, HStack, Stack, Box, ScrollView, Avatar, View, Button
-} from "native-base";
+import { View } from "native-base";
 import Icon, { Icons } from '../Components/Icons';
 import { Bubble, GiftedChat, Send } from 'react-native-gifted-chat';
 

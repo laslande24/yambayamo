@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 
@@ -28,4 +27,3 @@ const SplashScreen = () => {
 const styles = StyleSheet.create({})
 
 export default SplashScreen;
->>>>>>> 2be13d818ceae66e63a8fa5a4e2f568c5a3cc2ef

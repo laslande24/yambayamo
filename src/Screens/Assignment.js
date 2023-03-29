@@ -8,11 +8,7 @@ import CircularProgress from 'react-native-circular-progress-indicator';
 
 const Assignment = () => {
     return (
-<<<<<<< HEAD
-        <ScrollView px={3} mt={8} showsVerticalScrollIndicator={false} h="full">
-=======
-        <ScrollView px={3} py={4} showsVerticalScrollIndicator={false} h="full">
->>>>>>> 2be13d818ceae66e63a8fa5a4e2f568c5a3cc2ef
+        <ScrollView px={3} py={8} showsVerticalScrollIndicator={false} h="full">
             <HStack mb="4" px={5} py={3} background={"info.300"} rounded="2xl" alignItems="center" justifyContent="space-between">
                 <VStack>
                     <Text fontSize="sm">2 Jan - 2 June 2023</Text>
@@ -84,5 +80,4 @@ const Assignment = () => {
         </ScrollView>
     )
 }
-
 export default Assignment;
